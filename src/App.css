@@ -1,9 +1,77 @@
 /* Add styling for your page here */
 
 .App {
-
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 250px;
+    height:  550px;
+    padding: 30px;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: dimgrey;
+
+}
+
+.bakery {
+    width: 80%
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: dimgrey;
+
+}
+
+.BakeryItem h1 {
+    font-size: 1.5rem;
+}
+
+.BakeryItem p {
+    font-size: 1.25rem;
+}
+
+.BakeryItem img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+.BakeryItem button {
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.BakeryItem div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: safe center;
 }
